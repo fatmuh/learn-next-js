@@ -20,7 +20,7 @@ async function getData() {
                 className="relative max-w-sm min-w-[340px] bg-white shadow-md rounded-3xl p-2 mx-1 my-3 cursor-pointer"
               >
                 <div className="overflow-x-hidden rounded-2xl relative">
-                  <img className="h-40 rounded-2xl w-full object-cover" src={product.image} />
+                  <img className="h-96 rounded-2xl w-full object-cover" src={product.image} />
                   <p className="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
